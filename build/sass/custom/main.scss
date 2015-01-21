@@ -3,11 +3,13 @@ body {
 }
 
 header{
-	@include yiq-contrasted(#939393);
+	@include yiq-contrasted(#fff);
 	@include unit (padding, 10);
+	@include box-shadow(1px 1px 1px 3px rgba(#000, .3));
 	p {
 		margin: 0;
 	}
+	padding: 20px 0;
 }
 
 footer {
